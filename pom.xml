@@ -147,7 +147,7 @@
           <!-- MainClass in mainfest make a executable jar -->
           <archive>
             <manifest>
-              <mainClass>in.vivasa.Translator</mainClass>
+              <mainClass>in.vivasa.GeoApi</mainClass>
             </manifest>
           </archive>
 

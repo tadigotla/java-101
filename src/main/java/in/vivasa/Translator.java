@@ -2,11 +2,9 @@ package in.vivasa;
 
 import java.util.Map;
 import java.util.List;
-import java.io.IOException;
 
 import com.google.gson.Gson;
 
-import okhttp3.MediaType;
 import okhttp3.OkHttpClient;
 import okhttp3.Request;
 import okhttp3.RequestBody;
