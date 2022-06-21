@@ -10,6 +10,16 @@
 
   <dependencies>
     <dependency>
+        <groupId>com.google.code.gson</groupId>
+        <artifactId>gson</artifactId>
+        <version>2.8.5</version>
+    </dependency>
+    <dependency>
+      <groupId>com.squareup.okhttp3</groupId>
+      <artifactId>okhttp</artifactId>
+      <version>4.10.0</version>
+    </dependency>
+    <dependency>
       <groupId>com.google.zxing</groupId>
       <artifactId>core</artifactId>
       <version>3.3.0</version>
@@ -18,7 +28,7 @@
       <groupId>com.google.zxing</groupId>
       <artifactId>javase</artifactId>
       <version>3.3.0</version>
-    </dependency>  
+    </dependency>
     <dependency>
       <groupId>org.apache.commons</groupId>
       <artifactId>commons-lang3</artifactId>
@@ -137,7 +147,7 @@
           <!-- MainClass in mainfest make a executable jar -->
           <archive>
             <manifest>
-              <mainClass>in.vivasa.QrGenerator</mainClass>
+              <mainClass>in.vivasa.Translator</mainClass>
             </manifest>
           </archive>
 
